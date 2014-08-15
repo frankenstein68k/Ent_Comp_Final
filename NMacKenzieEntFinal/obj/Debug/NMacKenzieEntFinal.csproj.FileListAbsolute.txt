@@ -1,0 +1,5 @@
+c:\users\neil\documents\visual studio 2012\Projects\NMacKenzieEntFinal\NMacKenzieEntFinal\bin\NMacKenzieEntFinal.dll
+c:\users\neil\documents\visual studio 2012\Projects\NMacKenzieEntFinal\NMacKenzieEntFinal\bin\NMacKenzieEntFinal.pdb
+c:\users\neil\documents\visual studio 2012\Projects\NMacKenzieEntFinal\NMacKenzieEntFinal\obj\Debug\NMacKenzieEntFinal.csprojResolveAssemblyReference.cache
+c:\users\neil\documents\visual studio 2012\Projects\NMacKenzieEntFinal\NMacKenzieEntFinal\obj\Debug\NMacKenzieEntFinal.dll
+c:\users\neil\documents\visual studio 2012\Projects\NMacKenzieEntFinal\NMacKenzieEntFinal\obj\Debug\NMacKenzieEntFinal.pdb
