@@ -1,4 +1,6 @@
 ﻿body {
-    color: blue;
-    text-align: center;
+    color: black;
+    background-color: lightgray;
+    text-align: left;
+    font-family: sans-serif;
 }

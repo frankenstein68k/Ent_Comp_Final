@@ -11,9 +11,49 @@ namespace NMacKenzieEntFinal
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Testing
-            Label2.Text = Request.QueryString["ProductID"];
-            Label4.Text = Request.QueryString["UnitPrice"];
+            if (!IsPostBack)
+            {
+            }
+
+            getCustomers();
+            getShippers();
+
+            txtProductID.Text = Request.QueryString["ProductID"];
+            txtProductName.Text = Request.QueryString["ProductName"];
+            txtProductPrice.Text = Request.QueryString["UnitPrice"];
         }
+
+        protected void getCustomers()
+        {
+            using (NorthwindEntities objEnt = new NorthwindEntities())
+            {
+                var data = from Customer in objEnt.Customers
+                           orderby Customer.CompanyName
+                           select Customer;
+
+                ddlCustomers.DataSource = data.ToList();
+                ddlCustomers.DataBind();
+            }
+        }
+
+        protected void getShippers()
+        {
+            using (NorthwindEntities objEnt = new NorthwindEntities())
+            {
+                var data = from Shipper in objEnt.Shippers
+                           orderby Shipper.CompanyName
+                           select Shipper;
+                ddlShippers.DataSource = data.ToList();
+                ddlShippers.DataBind();
+
+            }
+        }
+
+        protected void btnSaveOrder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

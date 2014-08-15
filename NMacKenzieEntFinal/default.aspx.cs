@@ -50,9 +50,6 @@ namespace NMacKenzieEntFinal
                 ddlProductPrice.DataSource = data2.ToList();
                 ddlProductPrice.DataBind();
             }
-
-            //testing
-            //lblProductPrice.Text = productIDstr;
             
         }
 
@@ -64,8 +61,7 @@ namespace NMacKenzieEntFinal
         protected void btnPlaceOrder_Click(object sender, EventArgs e)
         {
             //redirects user and two values to next pages (productId and Unit price)
-            Response.Redirect("~/orderpage.aspx?ProductID=" + ddlProducts.SelectedValue + "&UnitPrice=" + ddlProductPrice.Text);
-
+            Response.Redirect("~/orderpage.aspx?ProductID=" + ddlProducts.SelectedValue + "&ProductName=" + ddlProducts.SelectedItem + "&UnitPrice=" + ddlProductPrice.Text);
         }
     }
 }
