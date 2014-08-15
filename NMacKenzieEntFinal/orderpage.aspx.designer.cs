@@ -10,51 +10,51 @@
 namespace NMacKenzieEntFinal {
     
     
-    public partial class _default {
+    public partial class orderpage {
         
         /// <summary>
-        /// ddlProducts control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlProducts;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// lblProductPriceLabel control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblProductPriceLabel;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// ddlProductPrice control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlProductPrice;
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// btnUpdatePrice control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUpdatePrice;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// btnPlaceOrder control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPlaceOrder;
+        protected global::System.Web.UI.WebControls.Label Label5;
     }
 }
